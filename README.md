@@ -1,16 +1,12 @@
-### React template
+### React
 
-This is a template to build a scalable react web application using:
-* React
-* Express
-* Webpack
-* ESlint
-* Babel
+This app about React:
+* Old lifeCycle
 
 ### Fast start
 ```sh
 # Clone the repository
-$ git clone https://github.com/njiyto/react_template
+$ git clone https://github.com/njiyto/react.git
 
 # Install dependencies
 $ npm install
@@ -22,7 +18,7 @@ $ npm start
 ### Description
 * [npm start] - concurrently run two commands below
 * [npm run build:dev] - webpack --progress
-* [npm run start:dev] -  nodemon --watch ./server/server.js on 3000 port
+* [npm run start:dev] -  nodemon --watch ./server/server.js on 4000 port
 
 ### Folder Structure
 * [client] - there are all files which relate to front
@@ -36,4 +32,5 @@ everytime check email:
 $ git config user.email
 $ git config user.email 'example@mail'
 $ git remote -v
+$ git remote set-url origin
 ```
