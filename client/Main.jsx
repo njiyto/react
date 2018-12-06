@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import OldLifeCycle from './OldLifeCycle';
+import NewLifeCycle from './NewLifeCycle';
+import Hooks from './Hooks';
 
 export default class Main extends Component {
   state = {
@@ -20,13 +22,21 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        {this.state.showOld
+        {false
           && <OldLifeCycle
               killOld={this.killOld}
               changeProps={this.changeProps}
               someProps={this.state.someProps}
             />
         }
+        {false// this.state.showOld
+          && <NewLifeCycle
+              killOld={this.killOld}
+              changeProps={this.changeProps}
+              someProps={this.state.someProps}
+            />
+        }
+        <Hooks />
       </div>
     );
   }

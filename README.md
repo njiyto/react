@@ -1,7 +1,9 @@
 ### React
 
 This app about React:
-* Old lifeCycle
+* old life cycle
+* new life cycle
+* hooks
 
 ### Fast start
 ```sh
