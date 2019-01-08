@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import OldLifeCycle from './OldLifeCycle';
 import NewLifeCycle from './NewLifeCycle';
 import Hooks from './Hooks';
+import Lazy from './Lazy';
 
 export default class Main extends Component {
   state = {
@@ -21,7 +22,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div>
+      <div> 
         {false
           && <OldLifeCycle
               killOld={this.killOld}
@@ -37,6 +38,7 @@ export default class Main extends Component {
             />
         }
         <Hooks />
+        <Lazy />
       </div>
     );
   }
