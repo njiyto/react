@@ -9,6 +9,7 @@ const presets = [
         safari: '11.1',
       },
       useBuiltIns: 'usage',
+      // modules: false,
     },
   ],
   '@babel/preset-react',
