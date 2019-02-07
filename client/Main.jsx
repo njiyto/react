@@ -3,6 +3,7 @@ import OldLifeCycle from './OldLifeCycle';
 import NewLifeCycle from './NewLifeCycle';
 import Hooks from './Hooks';
 import Lazy from './Lazy';
+import Context from './Context';
 
 export default class Main extends Component {
   state = {
@@ -39,6 +40,7 @@ export default class Main extends Component {
         }
         <Hooks />
         <Lazy />
+        <Context />
       </div>
     );
   }
