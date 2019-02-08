@@ -4,6 +4,7 @@ import NewLifeCycle from './NewLifeCycle';
 import Hooks from './Hooks';
 import Lazy from './Lazy';
 import Context from './Context';
+import Refs from './Refs';
 
 export default class Main extends Component {
   state = {
@@ -41,6 +42,7 @@ export default class Main extends Component {
         <Hooks />
         <Lazy />
         <Context />
+        <Refs />
       </div>
     );
   }
