@@ -1,14 +1,11 @@
-### React
+### React Examples App
 
-This app about React:
-* old life cycle
-* new life cycle
-* hooks
+This app about React, Redux and their pitfalls based on Create React App
 
 ### Fast start
 ```sh
 # Clone the repository
-$ git clone https://github.com/njiyto/react.git
+$ git clone https://github.com/njiyto/react-examples.git
 
 # Install dependencies
 $ npm install
@@ -17,16 +14,8 @@ $ npm install
 $ npm start
 ```
 
-### Description
-* [npm start] - concurrently run two commands below
-* [npm run build:dev] - webpack --progress
-* [npm run start:dev] -  nodemon --watch ./server/server.js on 4000 port
-
 ### Folder Structure
-* [client] - there are all files which relate to front
-* [public] - there is a ready app
-* [server] - there are all files which relate to server
-* [root files] - there are all settings files
+* [src] - all features
 
 ### Contribution
 everytime check email:
